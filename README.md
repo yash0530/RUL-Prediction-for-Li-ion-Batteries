@@ -30,14 +30,12 @@
 
 ## Regression Model
 ### Using Dataset from 1 **Battery 005**
-* **75%** of discharge cycles are used as training data
-* **25%** of discharge cycles are used as testing data
+* Train test split **0.75, 0.25**
 * Accuracy Obtained **99.9903768373228**
-* Average difference between Predicted and Real Capacity **0.0001504458509620327**
+* Average absolute difference between Predicted and Real Capacity **0.0001504458509620327**
 
 ### Using Dataset from 3 **Batteries 005, 006 and 007**
 * A new dataset was fromed by mixing cycles from these battries
-* **75%** of discharge cycles are used as training data
-* **25%** of discharge cycles are used as testing data
+* Train test split **0.75, 0.25**
 * Accuracy Obtained **99.15812921489568**
-* Average difference between Predicted and Real Capacity **0.013404734961093144**
+* Average absolute difference between Predicted and Real Capacity **0.013404734961093144**
