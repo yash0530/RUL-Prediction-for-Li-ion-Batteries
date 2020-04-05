@@ -24,6 +24,20 @@
 ## Plot of Critical Values and Capacity v/s Cycles
 ![Battery B0005](/CriticalValues.png)
 * Above is the plot for battery B0005
-* Cycle number is representing the age of battery and with increasing cycle number (age) **battery's capacity** decreases and linearly critcal values are also decreasing
+* Cycle number is representing the age of battery and with increasing cycle number (age) **battery's capacity** decreases and **linearly critcal values are also decreasing**
+* Thus there is a strong linear co-relational in the data
 * Thus we used a **Regression Model**
 
+## Regression Model
+* Using Dataset from 1 **Battery 005**
+* **75%** of discharge cycles are used as training data
+* **25%** of discharge cycles are used as testing data
+* Accuracy Obtained **99.9903768373228**
+* Average difference between Predicted and Real Capacity **0.0001504458509620327**
+
+* Using Dataset from 3 **Batteries 005, 006 and 007**
+* A new dataset was fromed by mixing cycles from this battries
+* **75%** of discharge cycles are used as training data
+* **25%** of discharge cycles are used as testing data
+* Accuracy Obtained **99.15812921489568**
+* Average difference between Predicted and Real Capacity **0.013404734961093144**
