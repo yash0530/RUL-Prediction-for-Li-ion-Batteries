@@ -25,7 +25,7 @@
 ![Battery B0005](/CriticalValues.png)
 * Above is the plot for battery B0005
 * Cycle number is representing the age of battery and with increasing cycle number (age) **battery's capacity** decreases and **critcal values are also decreasing linearly**
-* Thus there is a strong linear co-relational in the data
+* Thus there is a strong linear correlation in the data
 * Thus we used a **Regression Model**
 
 ## Regression Model
