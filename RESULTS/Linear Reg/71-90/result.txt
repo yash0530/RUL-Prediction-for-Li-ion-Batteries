@@ -1,4 +1,3 @@
-Using matplotlib backend: Qt5Agg
 B0005
 Minima Test: 0.0058545504492163915, Param (x): 88
 Minima Train: 0.007734057083431952, Param (x): 90
@@ -14,3 +13,4 @@ Minima Train: 0.0026436429465124295, Param (x): 89
 B0018
 Minima Test: 0.0034207166598825456, Param (x): 90
 Minima Train: 0.004965374309248017, Param (x): 90
+
