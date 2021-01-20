@@ -14,4 +14,3 @@ B0018
 Minima Test: 0.03239297965030463, Param (x): 20
 Minima Train: 0.01396628397104937, Param (x): 20
 
-

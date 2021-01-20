@@ -1,19 +1,16 @@
 locs = {
     "/home/yash/Documents/RUL/RESULTS/ARD Reg": "ARD Reg",
     "/home/yash/Documents/RUL/RESULTS/Decision Tree Reg": "Decision Tree Reg",
-    "/home/yash/Documents/RUL/RESULTS/ELM Reg": "ELM Reg",
     "/home/yash/Documents/RUL/RESULTS/Linear Reg": "Linear Reg",
     "/home/yash/Documents/RUL/RESULTS/Naive Bayes Reg": "Naive Bayes Reg",
-    "/home/yash/Documents/RUL/RESULTS/Random Forest Reg": "Random Forest Reg"
+    "/home/yash/Documents/RUL/RESULTS/Random Forest Reg": "Random Forest Reg",
+    "/home/yash/Documents/RUL/RESULTS/ELM Reg": "ELM Reg",
+    "/home/yash/Documents/RUL/RESULTS/ELM Reg (PSO)": "ELM Reg (PSO)"
 }
 
 ranges = [
     "1-20", "21-50", "51-70", "71-90"
 ]
-
-# ranges = [
-#     "21-50"
-# ]
 
 results = {}
 

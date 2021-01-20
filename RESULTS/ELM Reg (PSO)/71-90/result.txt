@@ -1,0 +1,16 @@
+B0005
+Minima Test: 0.002614479100825115, Param (x): 89
+Minima Train: 0.00000011312813325, Param (x): 90
+
+B0006
+Minima Test: 0.0013966890410717855, Param (x): 90
+Minima Train: 0.000000125491596668, Param (x): 71
+
+B0007
+Minima Test: 0.005072272129707475, Param (x): 89
+Minima Train: 0.00000002.91862230, Param (x): 90
+
+B0018
+Minima Test: 0.001448075992742208, Param (x): 83
+Minima Train: 0.00000003164055974, Param (x): 85
+
