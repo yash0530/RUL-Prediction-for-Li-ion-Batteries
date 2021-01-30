@@ -1,15 +1,417 @@
 B0005
-Minima Test: 0.035610526256009696, Param (x): 8
-Minima Train: 0.024337535247091858, Param (x): 20
+Minima Test: 0.0277647262288684, Param (x): 70
+Minima Train: 0.0253974115597131, Param (x): 70
 
 B0006
-Minima Test: 0.06225368783298671, Param (x): 7
-Minima Train: 0.05701841947455007, Param (x): 14
+Minima Test: 0.0211789271992446, Param (x): 66
+Minima Train: 0.0063845395968547, Param (x): 70
 
 B0007
-Minima Test: 0.02636226206271874, Param (x): 10
-Minima Train: 0.02026025481853588, Param (x): 19
+Minima Test: 0.0089085921993406, Param (x): 67
+Minima Train: 0.0043057663702112, Param (x): 62
 
 B0018
-Minima Test: 0.03911494646266035, Param (x): 19
-Minima Train: 0.03911125518656646, Param (x): 15
+Minima Test: 0.0092297093319062, Param (x): 59
+Minima Train: 0.0102079876555095, Param (x): 65
+
+B0005
+Minima Test: 0.0271753693963488, Param (x): 67
+Minima Train: 0.0247561707424013, Param (x): 70
+
+B0006
+Minima Test: 0.0113971707270788, Param (x): 64
+Minima Train: 0.0064600277248800, Param (x): 69
+
+B0007
+Minima Test: 0.0057072160190589, Param (x): 63
+Minima Train: 0.0042221592556730, Param (x): 68
+
+B0018
+Minima Test: 0.0102043647385760, Param (x): 63
+Minima Train: 0.0098823778119116, Param (x): 70
+
+B0005
+Minima Test: 0.0251465318176136, Param (x): 69
+Minima Train: 0.0262618752981985, Param (x): 70
+
+B0006
+Minima Test: 0.0258775333696130, Param (x): 61
+Minima Train: 0.0054387076910766, Param (x): 70
+
+B0007
+Minima Test: 0.0120990984292810, Param (x): 64
+Minima Train: 0.0045723151545709, Param (x): 69
+
+B0018
+Minima Test: 0.0102182191052048, Param (x): 59
+Minima Train: 0.0091805387239068, Param (x): 66
+
+B0005
+Minima Test: 0.0252151292057577, Param (x): 70
+Minima Train: 0.0266294746723958, Param (x): 69
+
+B0006
+Minima Test: 0.0146781384634625, Param (x): 65
+Minima Train: 0.0064942978266836, Param (x): 70
+
+B0007
+Minima Test: 0.0092688396332382, Param (x): 60
+Minima Train: 0.0045054082143988, Param (x): 62
+
+B0018
+Minima Test: 0.0087125981203969, Param (x): 55
+Minima Train: 0.0096808544552248, Param (x): 65
+
+B0005
+Minima Test: 0.0257998710553578, Param (x): 68
+Minima Train: 0.0255042677501141, Param (x): 70
+
+B0006
+Minima Test: 0.0219542293018002, Param (x): 65
+Minima Train: 0.0057748196879849, Param (x): 70
+
+B0007
+Minima Test: 0.0081144188978545, Param (x): 62
+Minima Train: 0.0044348350042764, Param (x): 68
+
+B0018
+Minima Test: 0.0083071440903882, Param (x): 64
+Minima Train: 0.0099016793649381, Param (x): 61
+
+B0005
+Minima Test: 0.0271548589632234, Param (x): 70
+Minima Train: 0.0256365494789997, Param (x): 70
+
+B0006
+Minima Test: 0.0143567714597831, Param (x): 66
+Minima Train: 0.0063645441976126, Param (x): 70
+
+B0007
+Minima Test: 0.0074863400029291, Param (x): 61
+Minima Train: 0.0044858378945785, Param (x): 62
+
+B0018
+Minima Test: 0.0107971701861277, Param (x): 68
+Minima Train: 0.0102718756314425, Param (x): 63
+
+B0005
+Minima Test: 0.0248334027714318, Param (x): 66
+Minima Train: 0.0256831771669719, Param (x): 70
+
+B0006
+Minima Test: 0.0176913729318947, Param (x): 70
+Minima Train: 0.0066594637356690, Param (x): 70
+
+B0007
+Minima Test: 0.0083698732062762, Param (x): 64
+Minima Train: 0.0043563737627532, Param (x): 61
+
+B0018
+Minima Test: 0.0133801501780953, Param (x): 66
+Minima Train: 0.0100507234979667, Param (x): 68
+
+B0005
+Minima Test: 0.0262499913676811, Param (x): 65
+Minima Train: 0.0256521519832586, Param (x): 70
+
+B0006
+Minima Test: 0.0136114872659818, Param (x): 55
+Minima Train: 0.0062902902705896, Param (x): 70
+
+B0007
+Minima Test: 0.0084554586299860, Param (x): 61
+Minima Train: 0.0041472269893199, Param (x): 65
+
+B0018
+Minima Test: 0.0093832358938608, Param (x): 67
+Minima Train: 0.0099749072892663, Param (x): 70
+
+B0005
+Minima Test: 0.0269463356803429, Param (x): 70
+Minima Train: 0.0256237501172918, Param (x): 70
+
+B0006
+Minima Test: 0.0208691061023850, Param (x): 65
+Minima Train: 0.0061532353535846, Param (x): 70
+
+B0007
+Minima Test: 0.0098336193042801, Param (x): 70
+Minima Train: 0.0042888325744259, Param (x): 67
+
+B0018
+Minima Test: 0.0109919324295829, Param (x): 68
+Minima Train: 0.0095912110130328, Param (x): 65
+
+B0005
+Minima Test: 0.0197154958832138, Param (x): 70
+Minima Train: 0.0264870145228932, Param (x): 70
+
+B0006
+Minima Test: 0.0262023179542625, Param (x): 56
+Minima Train: 0.0047429119461911, Param (x): 70
+
+B0007
+Minima Test: 0.0095164423247644, Param (x): 55
+Minima Train: 0.0044675786582306, Param (x): 69
+
+B0018
+Minima Test: 0.0088140801587451, Param (x): 70
+Minima Train: 0.0100255999931263, Param (x): 64
+
+B0005
+Minima Test: 0.0257047215469174, Param (x): 67
+Minima Train: 0.0255485251107266, Param (x): 70
+
+B0006
+Minima Test: 0.0225336169777789, Param (x): 70
+Minima Train: 0.0063776797425193, Param (x): 70
+
+B0007
+Minima Test: 0.0080625492489216, Param (x): 67
+Minima Train: 0.0043918943335347, Param (x): 69
+
+B0018
+Minima Test: 0.0084382417772868, Param (x): 67
+Minima Train: 0.0098306279152306, Param (x): 67
+
+B0005
+Minima Test: 0.0294771182055660, Param (x): 70
+Minima Train: 0.0247923326707727, Param (x): 70
+
+B0006
+Minima Test: 0.0113702381916453, Param (x): 68
+Minima Train: 0.0064231765226941, Param (x): 70
+
+B0007
+Minima Test: 0.0075582018241443, Param (x): 69
+Minima Train: 0.0044052817961103, Param (x): 69
+
+B0018
+Minima Test: 0.0085199163315341, Param (x): 68
+Minima Train: 0.0100525398093527, Param (x): 68
+
+B0005
+Minima Test: 0.0269254704643007, Param (x): 70
+Minima Train: 0.0256424489427421, Param (x): 70
+
+B0006
+Minima Test: 0.0280936983318459, Param (x): 64
+Minima Train: 0.0057509992663863, Param (x): 70
+
+B0007
+Minima Test: 0.0119714260615993, Param (x): 69
+Minima Train: 0.0046425792474423, Param (x): 67
+
+B0018
+Minima Test: 0.0098293170785371, Param (x): 61
+Minima Train: 0.0096394656852685, Param (x): 67
+
+B0005
+Minima Test: 0.0250981353106010, Param (x): 69
+Minima Train: 0.0250386912117069, Param (x): 70
+
+B0006
+Minima Test: 0.0158381627117851, Param (x): 69
+Minima Train: 0.0066149759581733, Param (x): 70
+
+B0007
+Minima Test: 0.0076055929746493, Param (x): 67
+Minima Train: 0.0045430904270303, Param (x): 70
+
+B0018
+Minima Test: 0.0117285785039661, Param (x): 56
+Minima Train: 0.0098472242073345, Param (x): 66
+
+B0005
+Minima Test: 0.0272631284513882, Param (x): 69
+Minima Train: 0.0252567734204447, Param (x): 70
+
+B0006
+Minima Test: 0.0147574457080507, Param (x): 66
+Minima Train: 0.0062258445996551, Param (x): 70
+
+B0007
+Minima Test: 0.0083216473419103, Param (x): 67
+Minima Train: 0.0042696200310018, Param (x): 68
+
+B0018
+Minima Test: 0.0082308757948016, Param (x): 70
+Minima Train: 0.0098792852486102, Param (x): 63
+
+B0005
+Minima Test: 0.0328211754203048, Param (x): 58
+Minima Train: 0.0251341381660651, Param (x): 70
+
+B0006
+Minima Test: 0.0204867807189550, Param (x): 69
+Minima Train: 0.0060092434799727, Param (x): 70
+
+B0007
+Minima Test: 0.0060725966788614, Param (x): 67
+Minima Train: 0.0043990527178587, Param (x): 67
+
+B0018
+Minima Test: 0.0097297004976917, Param (x): 70
+Minima Train: 0.0092570721531286, Param (x): 70
+
+B0005
+Minima Test: 0.0268923434632765, Param (x): 70
+Minima Train: 0.0263451706896244, Param (x): 70
+
+B0006
+Minima Test: 0.0177590988211837, Param (x): 63
+Minima Train: 0.0056813973072107, Param (x): 70
+
+B0007
+Minima Test: 0.0087816116212099, Param (x): 53
+Minima Train: 0.0042865649443531, Param (x): 65
+
+B0018
+Minima Test: 0.0113398963993012, Param (x): 62
+Minima Train: 0.0103737136076347, Param (x): 70
+
+B0005
+Minima Test: 0.0235132966812622, Param (x): 69
+Minima Train: 0.0268304007369879, Param (x): 70
+
+B0006
+Minima Test: 0.0184058333530503, Param (x): 70
+Minima Train: 0.0069420991358295, Param (x): 70
+
+B0007
+Minima Test: 0.0064573383783994, Param (x): 59
+Minima Train: 0.0044695182621436, Param (x): 67
+
+B0018
+Minima Test: 0.0061744141461826, Param (x): 58
+Minima Train: 0.0098184360671994, Param (x): 67
+
+B0005
+Minima Test: 0.0277649470482994, Param (x): 70
+Minima Train: 0.0262391931839463, Param (x): 70
+
+B0006
+Minima Test: 0.0173096607525338, Param (x): 54
+Minima Train: 0.0068478211091635, Param (x): 69
+
+B0007
+Minima Test: 0.0108430671241066, Param (x): 59
+Minima Train: 0.0042921062233869, Param (x): 68
+
+B0018
+Minima Test: 0.0076465894106591, Param (x): 66
+Minima Train: 0.0101094970958539, Param (x): 67
+
+B0005
+Minima Test: 0.0251830775166887, Param (x): 70
+Minima Train: 0.0252699202838166, Param (x): 70
+
+B0006
+Minima Test: 0.0177176521992904, Param (x): 60
+Minima Train: 0.0058932357819393, Param (x): 70
+
+B0007
+Minima Test: 0.0075614659992840, Param (x): 61
+Minima Train: 0.0046773315346428, Param (x): 66
+
+B0018
+Minima Test: 0.0095826532361044, Param (x): 60
+Minima Train: 0.0093787881379423, Param (x): 68
+
+B0005
+Minima Test: 0.0250208286546344, Param (x): 70
+Minima Train: 0.0263955693597630, Param (x): 70
+
+B0006
+Minima Test: 0.0174318277189027, Param (x): 67
+Minima Train: 0.0066976805475512, Param (x): 70
+
+B0007
+Minima Test: 0.0139955163426292, Param (x): 67
+Minima Train: 0.0042063962999781, Param (x): 70
+
+B0018
+Minima Test: 0.0162213664558768, Param (x): 69
+Minima Train: 0.0100509021876515, Param (x): 65
+
+B0005
+Minima Test: 0.0234512922605170, Param (x): 69
+Minima Train: 0.0263043511296474, Param (x): 70
+
+B0006
+Minima Test: 0.0228470399354250, Param (x): 52
+Minima Train: 0.0060687309165864, Param (x): 70
+
+B0007
+Minima Test: 0.0075652821226894, Param (x): 62
+Minima Train: 0.0039731005807986, Param (x): 69
+
+B0018
+Minima Test: 0.0095077863905991, Param (x): 58
+Minima Train: 0.0098132808382584, Param (x): 66
+
+B0005
+Minima Test: 0.0267865148535733, Param (x): 69
+Minima Train: 0.0270093465691743, Param (x): 70
+
+B0006
+Minima Test: 0.0151154362842254, Param (x): 70
+Minima Train: 0.0067084576780621, Param (x): 70
+
+B0007
+Minima Test: 0.0077523411656504, Param (x): 67
+Minima Train: 0.0043525305669345, Param (x): 66
+
+B0018
+Minima Test: 0.0082215376469180, Param (x): 55
+Minima Train: 0.0094034217840948, Param (x): 64
+
+B0005
+Minima Test: 0.0253255398723488, Param (x): 67
+Minima Train: 0.0262992182668103, Param (x): 69
+
+B0006
+Minima Test: 0.0207564996030183, Param (x): 69
+Minima Train: 0.0063313679928436, Param (x): 70
+
+B0007
+Minima Test: 0.0076327980085081, Param (x): 67
+Minima Train: 0.0042466482414827, Param (x): 63
+
+B0018
+Minima Test: 0.0073293647617817, Param (x): 61
+Minima Train: 0.0102399797840458, Param (x): 70
+
+B0005
+Minima Test: 0.0284342624852163, Param (x): 70
+Minima Train: 0.0261099147252971, Param (x): 70
+
+B0006
+Minima Test: 0.0153849084642421, Param (x): 61
+Minima Train: 0.0059144597534854, Param (x): 70
+
+B0007
+Minima Test: 0.0074106375680127, Param (x): 69
+Minima Train: 0.0041510893064156, Param (x): 61
+
+B0018
+Minima Test: 0.0071618985811822, Param (x): 63
+Minima Train: 0.0089606105945085, Param (x): 68
+
+-----------------------------------------------------------------------------------
+
+Battery: B0005 StdDevRMSE: 0.0023711143651208937
+Battery: B0005 AvgRMSE: 0.026226542584189362
+Battery: B0005 ModeCycleParam: 70
+
+Battery: B0006 StdDevRMSE: 0.004464004503121335
+Battery: B0006 AvgRMSE: 0.018544998181897553
+Battery: B0006 ModeCycleParam: 70
+
+Battery: B0007 StdDevRMSE: 0.0019283043554560889
+Battery: B0007 AvgRMSE: 0.0086140788443034
+Battery: B0007 ModeCycleParam: 67
+
+Battery: B0018 StdDevRMSE: 0.0021024303063857624
+Battery: B0018 AvgRMSE: 0.009588029649812242
+Battery: B0018 ModeCycleParam: 70
