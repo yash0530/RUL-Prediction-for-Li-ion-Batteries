@@ -1,0 +1,60 @@
+\renewcommand{\arraystretch}{2}%
+\begin{center}
+\begin{table*}
+\begin{tabular}{ | l | l | l | l | l | l | l | }
+\hline
+\multicolumn{7}{|c|}{\textbf{STD DEV, Merge Param Range:1-20}} \\
+\hline
+\textbf{Battery} & \textbf{ARD Reg} & \textbf{Decision Tree Reg} & \textbf{Linear Reg} & \textbf{Naive Bayes Reg} & \textbf{Random Forest Reg} & \textbf{ELM Reg} \\
+\hline
+\textbf{B0005} & 0.001636447 & 0.004258698 & 0.004358218 & 0.002118143 & 0.003266556 & 0.004559348 \\
+\hline
+\textbf{B0006} & 0.005020818 & 0.004909789 & 0.004871009 & 0.004626749 & 0.002799858 & 0.004475104 \\
+\hline
+\textbf{B0007} & 0.002371562 & 0.003395534 & 0.003056718 & 0.003231076 & 0.002736498 & 0.001453245 \\
+\hline
+\textbf{B0018} & 0.004609246 & 0.013522995 & 0.003670136 & 0.004323847 & 0.007160488 & 0.003318794 \\
+\hline
+\hline
+\multicolumn{7}{|c|}{\textbf{STD DEV, Merge Param Range:21-50}} \\
+\hline
+\textbf{Battery} & \textbf{ARD Reg} & \textbf{Decision Tree Reg} & \textbf{Linear Reg} & \textbf{Naive Bayes Reg} & \textbf{Random Forest Reg} & \textbf{ELM Reg} \\
+\hline
+\textbf{B0005} & 0.001794194 & 0.001611790 & 0.002770054 & 0.002691724 & 0.001948726 & 0.002975346 \\
+\hline
+\textbf{B0006} & 0.004364589 & 0.002584166 & 0.005291306 & 0.006469878 & 0.002655014 & 0.004380686 \\
+\hline
+\textbf{B0007} & 0.001876100 & 0.001689991 & 0.001060393 & 0.002153795 & 0.001553910 & 0.002197824 \\
+\hline
+\textbf{B0018} & 0.003103884 & 0.002395232 & 0.004336559 & 0.003470728 & 0.001247835 & 0.005005862 \\
+\hline
+\hline
+\multicolumn{7}{|c|}{\textbf{STD DEV, Merge Param Range:51-70}} \\
+\hline
+\textbf{Battery} & \textbf{ARD Reg} & \textbf{Decision Tree Reg} & \textbf{Linear Reg} & \textbf{Naive Bayes Reg} & \textbf{Random Forest Reg} & \textbf{ELM Reg} \\
+\hline
+\textbf{B0005} & 0.005030288 & 0.001637543 & 0.001956510 & 0.002359753 & 0.001524463 & 0.002473023 \\
+\hline
+\textbf{B0006} & 0.003533619 & 0.001789793 & 0.005679698 & 0.004866882 & 0.002049990 & 0.004862761 \\
+\hline
+\textbf{B0007} & 0.001408101 & 0.001567531 & 0.003292012 & 0.002066482 & 0.001474805 & 0.001815255 \\
+\hline
+\textbf{B0018} & 0.000962541 & 0.002382915 & 0.001792361 & 0.000699162 & 0.001465769 & 0.002392735 \\
+\hline
+\hline
+\multicolumn{7}{|c|}{\textbf{STD DEV, Merge Param Range:71-90}} \\
+\hline
+\textbf{Battery} & \textbf{ARD Reg} & \textbf{Decision Tree Reg} & \textbf{Linear Reg} & \textbf{Naive Bayes Reg} & \textbf{Random Forest Reg} & \textbf{ELM Reg} \\
+\hline
+\textbf{B0005} & 0.000705316 & 0.001345899 & 0.001904225 & 0.000493869 & 0.000959041 & 0.002089571 \\
+\hline
+\textbf{B0006} & 0.000917257 & 0.001807480 & 0.001008541 & 0.001024693 & 0.000994228 & 0.000950528 \\
+\hline
+\textbf{B0007} & 0.000798493 & 0.001347122 & 0.002001752 & 0.001111455 & 0.001050237 & 0.001210140 \\
+\hline
+\textbf{B0018} & 0.000897106 & 0.001954828 & 0.001672539 & 0.000509929 & 0.001712090 & 0.002242905 \\
+\hline
+\end{tabular}
+\end{table*}
+\end{center}
+

@@ -1,3 +1,5 @@
+import numpy as np
+
 locs = {
     "/home/yash/Documents/RUL/RESULTS_25_ITR(STD, AVG)/ARD Reg": "ARD Reg",
     "/home/yash/Documents/RUL/RESULTS_25_ITR(STD, AVG)/Decision Tree Reg": "Decision Tree Reg",
@@ -59,16 +61,51 @@ for ran in ranges:
                 loc = j
         results[ran][i][loc + 1] = f"** {results[ran][i][loc + 1]}"
 
-# printing rmses
-from prettytable import PrettyTable
-for ran in ranges:
-    p = PrettyTable()
-    p.title = f"Merge Param Range: {ran}"
-    p.field_names = results[ran][0]
-    for row in results[ran][1:]:
-        p.add_row(row)
-    print(p)
-    print("\n")
+with open(f"rmses.csv", "w") as f:
+    f.write("\\renewcommand{\\arraystretch}{2}%\n")
+    f.write("\\begin{center}\n")
+    f.write("\\begin{table*}\n")
+    f.write("\\begin{tabular}{ | l | l | l | l | l | l | l | }\n") 
+    for ran in ranges:
+        # f.write("\\renewcommand{\\arraystretch}{2}%\n")
+        # f.write("\\begin{center}\n")
+        # f.write("\\begin{table*}\n")
+        # f.write("\\begin{tabular}{ | l | l | l | l | l | l | l | }\n") 
+        f.write("\\hline\n")
+        f.write("\multicolumn{7}{|c|}{\\textbf{RMSE, Merge Param Range:"+ f"{ran}" + "}} \\\\\n")
+        f.write("\\hline\n")
+        for x in results[ran]:
+            for y in range(len(x)):
+                val = x[y]
+                if val[0] == '*' or (val[0] >= 'A' and val[0] <= 'Z'):
+                    if val[0] == '*':
+                        val = val[3:]
+                    val = "\\textbf{" + val + "}"
+                if y == 6:
+                    f.write(f"{val} ")
+                else:
+                    f.write(f"{val} & ")
+            f.write("\\\\\n")
+            f.write("\\hline\n")
+        # f.write("\\end{tabular}\n")
+        # f.write("\\end{table*}\n")
+        # f.write("\\end{center}\n")
+        # f.write("\n")
+    f.write("\\end{tabular}\n")
+    f.write("\\end{table*}\n")
+    f.write("\\end{center}\n")
+    f.write("\n")
+
+# # printing rmses
+# from prettytable import PrettyTable
+# for ran in ranges:
+#     p = PrettyTable()
+#     p.title = f"Merge Param Range: {ran}"
+#     p.field_names = results[ran][0]
+#     for row in results[ran][1:]:
+#         p.add_row(row)
+#     print(p)
+#     print("\n")
 
 # creating accuracy results from rmses
 results_accuracy = results
@@ -87,24 +124,96 @@ for ran in ranges:
                     acc = (1 - float(abc)) * 100
                     results_accuracy[ran][i][j + 1] = f"{round(acc, 5)} {merge}"
 
-# printing accuracy table
-print("----------------------- ACC -------------------\n\n")
-for ran in ranges:
-    p = PrettyTable()
-    p.title = f"Merge Param Range: {ran}"
-    p.field_names = results_accuracy[ran][0]
-    for row in results_accuracy[ran][1:]:
-        p.add_row(row)
-    print(p)
-    print("\n")
 
-# printing stddev table
-print("----------------------- STDDEV -------------------\n\n")
-for ran in ranges:
-    p = PrettyTable()
-    p.title = f"Merge Param Range: {ran}"
-    p.field_names = results_stddev[ran][0]
-    for row in results_stddev[ran][1:]:
-        p.add_row(row)
-    print(p)
-    print("\n")
+with open(f"accuracies.csv", "w") as f:
+    f.write("\\renewcommand{\\arraystretch}{2}%\n")
+    f.write("\\begin{center}\n")
+    f.write("\\begin{table*}\n")
+    f.write("\\begin{tabular}{ | l | l | l | l | l | l | l | }\n") 
+    for ran in ranges:
+        # f.write("\\renewcommand{\\arraystretch}{2}%\n")
+        # f.write("\\begin{center}\n")
+        # f.write("\\begin{table*}\n")
+        # f.write("\\begin{tabular}{ | l | l | l | l | l | l | l | }\n") 
+        f.write("\\hline\n")
+        f.write("\multicolumn{7}{|c|}{\\textbf{ACCURACY, Merge Param Range:"+ f"{ran}" + "}} \\\\\n")
+        f.write("\\hline\n")
+        for x in results_accuracy[ran]:
+            for y in range(len(x)):
+                val = x[y]
+                if val[0] == '*' or (val[0] >= 'A' and val[0] <= 'Z'):
+                    if val[0] == '*':
+                        val = val[3:]
+                    val = "\\textbf{" + val + "}"
+                if y == 6:
+                    f.write(f"{val} ")
+                else:
+                    f.write(f"{val} & ")
+            f.write("\\\\\n")
+            f.write("\\hline\n")
+        # f.write("\\end{tabular}\n")
+        # f.write("\\end{table*}\n")
+        # f.write("\\end{center}\n")
+        # f.write("\n")
+    f.write("\\end{tabular}\n")
+    f.write("\\end{table*}\n")
+    f.write("\\end{center}\n")
+    f.write("\n")
+
+# # printing accuracy table
+# print("----------------------- ACC -------------------\n\n")
+# for ran in ranges:
+#     p = PrettyTable()
+#     p.title = f"Merge Param Range: {ran}"
+#     p.field_names = results_accuracy[ran][0]
+#     for row in results_accuracy[ran][1:]:
+#         p.add_row(row)
+#     print(p)
+#     print("\n")
+
+# # printing stddev table
+# print("----------------------- STDDEV -------------------\n\n")
+# for ran in ranges:
+#     p = PrettyTable()
+#     p.title = f"Merge Param Range: {ran}"
+#     p.field_names = results_stddev[ran][0]
+#     for row in results_stddev[ran][1:]:
+#         p.add_row(row)
+#     print(p)
+#     print("\n")
+
+
+with open(f"stddevies.csv", "w") as f:
+    f.write("\\renewcommand{\\arraystretch}{2}%\n")
+    f.write("\\begin{center}\n")
+    f.write("\\begin{table*}\n")
+    f.write("\\begin{tabular}{ | l | l | l | l | l | l | l | }\n") 
+    for ran in ranges:
+        # f.write("\\renewcommand{\\arraystretch}{2}%\n")
+        # f.write("\\begin{center}\n")
+        # f.write("\\begin{table*}\n")
+        # f.write("\\begin{tabular}{ | l | l | l | l | l | l | l | }\n") 
+        f.write("\\hline\n")
+        f.write("\multicolumn{7}{|c|}{\\textbf{STD DEV, Merge Param Range:"+ f"{ran}" + "}} \\\\\n")
+        f.write("\\hline\n")
+        for x in results_stddev[ran]:
+            for y in range(len(x)):
+                val = x[y]
+                if val[0] == '*' or (val[0] >= 'A' and val[0] <= 'Z'):
+                    if val[0] == '*':
+                        val = val[3:]
+                    val = "\\textbf{" + val + "}"
+                if y == 6:
+                    f.write(f"{val} ")
+                else:
+                    f.write(f"{val} & ")
+            f.write("\\\\\n")
+            f.write("\\hline\n")
+        # f.write("\\end{tabular}\n")
+        # f.write("\\end{table*}\n")
+        # f.write("\\end{center}\n")
+        # f.write("\n")
+    f.write("\\end{tabular}\n")
+    f.write("\\end{table*}\n")
+    f.write("\\end{center}\n")
+    f.write("\n")

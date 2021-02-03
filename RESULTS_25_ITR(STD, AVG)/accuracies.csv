@@ -1,0 +1,60 @@
+\renewcommand{\arraystretch}{2}%
+\begin{center}
+\begin{table*}
+\begin{tabular}{ | l | l | l | l | l | l | l | }
+\hline
+\multicolumn{7}{|c|}{\textbf{ACCURACY, Merge Param Range:1-20}} \\
+\hline
+\textbf{Battery} & \textbf{ARD Reg} & \textbf{Decision Tree Reg} & \textbf{Linear Reg} & \textbf{Naive Bayes Reg} & \textbf{Random Forest Reg} & \textbf{ELM Reg} \\
+\hline
+\textbf{B0005} & 96.44195 (18) & 98.32854 (20) & 95.66679 (20) & 96.99625 (17) & \textbf{98.88873 (20)} & 95.48102 (20) \\
+\hline
+\textbf{B0006} & 93.7888 (16) & 97.27191 (19) & 94.26659 (18) & 94.45259 (19) & \textbf{98.21804 (18)} & 94.44588 (19) \\
+\hline
+\textbf{B0007} & 96.99502 (15) & 98.34007 (19) & 97.50435 (20) & 97.42464 (20) & \textbf{99.02332 (20)} & 98.25441 (20) \\
+\hline
+\textbf{B0018} & 95.63024 (15) & 97.07489 (20) & 95.98261 (15) & 95.9071 (15) & \textbf{97.54612 (20)} & 95.99687 (16) \\
+\hline
+\hline
+\multicolumn{7}{|c|}{\textbf{ACCURACY, Merge Param Range:21-50}} \\
+\hline
+\textbf{Battery} & \textbf{ARD Reg} & \textbf{Decision Tree Reg} & \textbf{Linear Reg} & \textbf{Naive Bayes Reg} & \textbf{Random Forest Reg} & \textbf{ELM Reg} \\
+\hline
+\textbf{B0005} & 96.2407 (22) & 99.08449 (47) & 96.65158 (50) & 96.58754 (48) & \textbf{99.46543 (48)} & 96.6605 (50) \\
+\hline
+\textbf{B0006} & 94.84025 (50) & 98.90808 (45) & 97.58456 (50) & 96.78539 (50) & \textbf{99.20268 (48)} & 97.54062 (50) \\
+\hline
+\textbf{B0007} & 98.11582 (50) & 98.92034 (45) & 99.27323 (50) & 99.18618 (49) & \textbf{99.53267 (39)} & 98.9197 (48) \\
+\hline
+\textbf{B0018} & 97.82355 (49) & 98.80882 (50) & 98.34547 (50) & 98.24372 (50) & \textbf{99.38947 (44)} & 98.14383 (50) \\
+\hline
+\hline
+\multicolumn{7}{|c|}{\textbf{ACCURACY, Merge Param Range:51-70}} \\
+\hline
+\textbf{Battery} & \textbf{ARD Reg} & \textbf{Decision Tree Reg} & \textbf{Linear Reg} & \textbf{Naive Bayes Reg} & \textbf{Random Forest Reg} & \textbf{ELM Reg} \\
+\hline
+\textbf{B0005} & 96.6543 (70) & 99.17753 (70) & 97.54075 (70) & 97.6142 (70) & \textbf{99.57342 (62)} & 97.39418 (70) \\
+\hline
+\textbf{B0006} & 97.5062 (70) & 99.21707 (53) & 98.0357 (61) & 97.88703 (70) & \textbf{99.35796 (68)} & 98.1543 (66) \\
+\hline
+\textbf{B0007} & 98.59615 (69) & 99.01229 (67) & 99.39272 (68) & 99.365 (57) & \textbf{99.57216 (62)} & 99.10496 (64) \\
+\hline
+\textbf{B0018} & 99.4646 (69) & 99.20566 (68) & 99.38692 (58) & \textbf{99.7741 (70)} & 99.51305 (57) & 99.06521 (59) \\
+\hline
+\hline
+\multicolumn{7}{|c|}{\textbf{ACCURACY, Merge Param Range:71-90}} \\
+\hline
+\textbf{Battery} & \textbf{ARD Reg} & \textbf{Decision Tree Reg} & \textbf{Linear Reg} & \textbf{Naive Bayes Reg} & \textbf{Random Forest Reg} & \textbf{ELM Reg} \\
+\hline
+\textbf{B0005} & 99.39814 (85) & 99.2908 (90) & 99.21301 (90) & \textbf{99.74581 (89)} & 99.63523 (90) & 98.89086 (89) \\
+\hline
+\textbf{B0006} & 99.42481 (90) & 99.48294 (88) & 99.73569 (89) & \textbf{99.74025 (90)} & 99.57141 (90) & 99.72893 (89) \\
+\hline
+\textbf{B0007} & 99.51956 (87) & 99.09448 (89) & 99.65095 (90) & \textbf{99.75212 (89)} & 99.62422 (90) & 99.26407 (89) \\
+\hline
+\textbf{B0018} & 99.71045 (90) & 99.69512 (90) & 99.56955 (90) & \textbf{99.88553 (81)} & 99.74045 (90) & 99.43267 (90) \\
+\hline
+\end{tabular}
+\end{table*}
+\end{center}
+
